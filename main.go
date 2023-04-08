@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// strings
 	// var nameOne string = "Htet"
@@ -16,14 +14,14 @@ func main() {
 	// fmt.Println(nameFour)
 
 	// ints
-	var ageOne int = 20
-	var ageTwo = 21
-	ageThree := 22
-	fmt.Println(ageOne, ageTwo, ageThree)
+	// var ageOne int = 20
+	// var ageTwo = 21
+	// ageThree := 22
+	// fmt.Println(ageOne, ageTwo, ageThree)
 
 	// bits and memory
-	var numOne int8 = 127
-	var numTwo int8 = -128
-	var numThree uint8 = 255
-	fmt.Println(numOne, numTwo, numThree)
+	// var numOne int8 = 127
+	// var numTwo int8 = -128
+	// var numThree uint8 = 255
+	// fmt.Println(numOne, numTwo, numThree)
 }

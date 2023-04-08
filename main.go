@@ -20,4 +20,10 @@ func main() {
 	var ageTwo = 21
 	ageThree := 22
 	fmt.Println(ageOne, ageTwo, ageThree)
+
+	// bits and memory
+	var numOne int8 = 127
+	var numTwo int8 = -128
+	var numThree uint8 = 255
+	fmt.Println(numOne, numTwo, numThree)
 }

@@ -3,7 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, go")
-	var name string = "Htet"
-	fmt.Println(name)
+	var nameOne string = "Htet"
+	var nameTwo = "Oo"
+	var nameThree string
+	fmt.Println(nameOne, nameTwo, nameThree)
+	nameOne = "Htet1"
+	nameTwo = "Oo1"
+	nameThree = "Naing1"
+	fmt.Println(nameOne, nameTwo, nameThree)
+	nameFour := "luios"
+	fmt.Println(nameFour)
 }

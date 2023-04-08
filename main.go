@@ -28,8 +28,19 @@ func main() {
 	// fmt.Println(numOne, numTwo, numThree)
 
 	// floats
-	var scoreOne float32 = 25.43
-	var scoreTwo float64 = 3423423423423424234234234234.32432
-	scoreThree := 2.6 // float64
-	fmt.Println(scoreOne, scoreTwo, scoreThree)
+	// var scoreOne float32 = 25.43
+	// var scoreTwo float64 = 3423423423423424234234234234.32432
+	// scoreThree := 2.6 // float64
+	// fmt.Println(scoreOne, scoreTwo, scoreThree)
+
+	name := "Htet"
+	age := 20
+	// Print
+	fmt.Print("hello, ")
+	fmt.Print("GO \n")
+	fmt.Print("new line \n")
+
+	// Println
+	fmt.Println("Hello, GO")
+	fmt.Println("My name is", name, "and my age is", age)
 }

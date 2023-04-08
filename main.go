@@ -43,4 +43,11 @@ func main() {
 	// Println
 	fmt.Println("Hello, GO")
 	fmt.Println("My name is", name, "and my age is", age)
+
+	// Printf (formatted strings) %_ = format specifier
+	fmt.Printf("My name is %v and my age is %v \n", name, age)
+	fmt.Printf("My name is %q and my age is %q \n", name, age)
+	fmt.Printf("Age is type %T \n", age)
+	fmt.Printf("you score %f points! \n", 255.55)
+	fmt.Printf("you score %0.1f points! \n", 255.55)
 }

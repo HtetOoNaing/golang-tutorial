@@ -11,7 +11,12 @@ func main() {
 	// 	x++
 	// }
 
-	for x := 0; x < 5; x++ {
-		fmt.Println("x value is", x)
+	// for x := 0; x < 5; x++ {
+	// 	fmt.Println("x value is", x)
+	// }
+
+	names := []string{"mario", "luigi", "yoshi", "peach"}
+	for x := 0; x < len(names); x++ {
+		fmt.Println(x, "is", names[x])
 	}
 }

@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// strings
 	// var nameOne string = "Htet"
@@ -24,4 +26,10 @@ func main() {
 	// var numTwo int8 = -128
 	// var numThree uint8 = 255
 	// fmt.Println(numOne, numTwo, numThree)
+
+	// floats
+	var scoreOne float32 = 25.43
+	var scoreTwo float64 = 3423423423423424234234234234.32432
+	scoreThree := 2.6 // float64
+	fmt.Println(scoreOne, scoreTwo, scoreThree)
 }

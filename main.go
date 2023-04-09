@@ -16,7 +16,14 @@ func main() {
 	// }
 
 	names := []string{"mario", "luigi", "yoshi", "peach"}
-	for x := 0; x < len(names); x++ {
-		fmt.Println(x, "is", names[x])
+	// for x := 0; x < len(names); x++ {
+	// 	fmt.Println(x, "is", names[x])
+	// }
+	// for index, value := range names {
+	// 	fmt.Printf("The value at index %v is %v \n", index, value)
+	// }
+
+	for _, value := range names {
+		fmt.Printf("The value is %v \n", value)
 	}
 }

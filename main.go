@@ -22,4 +22,14 @@ func main() {
 	for k, v := range menu {
 		fmt.Println("Key is", k, "and value is", v)
 	}
+
+	phonebook := map[int]string{
+		12343243: "meria",
+		53453433: "luios",
+		53452322: "martin",
+	}
+	fmt.Println(phonebook)
+	fmt.Println(phonebook[53453433])
+	phonebook[53453433] = "bowser"
+	fmt.Println(phonebook)
 }

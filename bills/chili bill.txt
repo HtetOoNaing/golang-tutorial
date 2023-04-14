@@ -1,0 +1,5 @@
+Bill breakdown: 
+apple :    ...$3.99 
+orange :   ...$2.99 
+tip :      ...$1 
+total :    ...$6.98 

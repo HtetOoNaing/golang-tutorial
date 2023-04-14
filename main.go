@@ -37,12 +37,20 @@ func promptOptions(b bill) {
 			promptOptions(b)
 		}
 		b.addItem(name, p)
-		fmt.Println("Item added - ", name, price)
+		fmt.Println("Item added - ", name, p)
+		promptOptions(b)
 	case "s":
 		fmt.Println("You chose s")
 	case "t":
 		tip, _ := getInput("Enter tip amount ($): ", reader)
-		fmt.Println(tip)
+		t, err := strconv.ParseFloat(tip, 64)
+		if err != nil {
+			fmt.Println("The tip must be a number")
+			promptOptions(b)
+		}
+		b.updateTip(t)
+		fmt.Println("Tip added", t)
+		promptOptions(b)
 	default:
 		fmt.Println("That is not a valid option...")
 		promptOptions(b)
